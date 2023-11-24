@@ -1,0 +1,43 @@
+/* Додайте цей CSS в ваш файл стилів, наприклад, ContactItem.css */
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+  }
+
+
+  .contact-icon {
+    /* Стилі для іконки (якщо вона присутня) */
+  }
+  
+  .contact-name {
+    flex: 1;
+    margin: 0 70px;
+  }
+  
+  .contact-number {
+    margin-right: 70px;
+  }
+  
+  .contact-buttons {
+    /* Можливо, стилі для інших кнопок, якщо їх буде більше */
+  }
+  
+  .delete-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
